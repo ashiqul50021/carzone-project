@@ -1,0 +1,1465 @@
+[
+{
+    "type": "header",
+    "version": "5.1.1",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+},
+{
+    "type": "database",
+    "name": "carzone"
+},
+{
+    "type": "table",
+    "name": "account_emailaddress",
+    "database": "carzone",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "account_emailconfirmation",
+    "database": "carzone",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_group",
+    "database": "carzone",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_group_permissions",
+    "database": "carzone",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_permission",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "name": "Can add car",
+    "content_type_id": "1",
+    "codename": "add_car"
+},
+{
+    "id": "2",
+    "name": "Can change car",
+    "content_type_id": "1",
+    "codename": "change_car"
+},
+{
+    "id": "3",
+    "name": "Can delete car",
+    "content_type_id": "1",
+    "codename": "delete_car"
+},
+{
+    "id": "4",
+    "name": "Can view car",
+    "content_type_id": "1",
+    "codename": "view_car"
+},
+{
+    "id": "5",
+    "name": "Can add team",
+    "content_type_id": "2",
+    "codename": "add_team"
+},
+{
+    "id": "6",
+    "name": "Can change team",
+    "content_type_id": "2",
+    "codename": "change_team"
+},
+{
+    "id": "7",
+    "name": "Can delete team",
+    "content_type_id": "2",
+    "codename": "delete_team"
+},
+{
+    "id": "8",
+    "name": "Can view team",
+    "content_type_id": "2",
+    "codename": "view_team"
+},
+{
+    "id": "9",
+    "name": "Can add log entry",
+    "content_type_id": "3",
+    "codename": "add_logentry"
+},
+{
+    "id": "10",
+    "name": "Can change log entry",
+    "content_type_id": "3",
+    "codename": "change_logentry"
+},
+{
+    "id": "11",
+    "name": "Can delete log entry",
+    "content_type_id": "3",
+    "codename": "delete_logentry"
+},
+{
+    "id": "12",
+    "name": "Can view log entry",
+    "content_type_id": "3",
+    "codename": "view_logentry"
+},
+{
+    "id": "13",
+    "name": "Can add permission",
+    "content_type_id": "4",
+    "codename": "add_permission"
+},
+{
+    "id": "14",
+    "name": "Can change permission",
+    "content_type_id": "4",
+    "codename": "change_permission"
+},
+{
+    "id": "15",
+    "name": "Can delete permission",
+    "content_type_id": "4",
+    "codename": "delete_permission"
+},
+{
+    "id": "16",
+    "name": "Can view permission",
+    "content_type_id": "4",
+    "codename": "view_permission"
+},
+{
+    "id": "17",
+    "name": "Can add group",
+    "content_type_id": "5",
+    "codename": "add_group"
+},
+{
+    "id": "18",
+    "name": "Can change group",
+    "content_type_id": "5",
+    "codename": "change_group"
+},
+{
+    "id": "19",
+    "name": "Can delete group",
+    "content_type_id": "5",
+    "codename": "delete_group"
+},
+{
+    "id": "20",
+    "name": "Can view group",
+    "content_type_id": "5",
+    "codename": "view_group"
+},
+{
+    "id": "21",
+    "name": "Can add user",
+    "content_type_id": "6",
+    "codename": "add_user"
+},
+{
+    "id": "22",
+    "name": "Can change user",
+    "content_type_id": "6",
+    "codename": "change_user"
+},
+{
+    "id": "23",
+    "name": "Can delete user",
+    "content_type_id": "6",
+    "codename": "delete_user"
+},
+{
+    "id": "24",
+    "name": "Can view user",
+    "content_type_id": "6",
+    "codename": "view_user"
+},
+{
+    "id": "25",
+    "name": "Can add content type",
+    "content_type_id": "7",
+    "codename": "add_contenttype"
+},
+{
+    "id": "26",
+    "name": "Can change content type",
+    "content_type_id": "7",
+    "codename": "change_contenttype"
+},
+{
+    "id": "27",
+    "name": "Can delete content type",
+    "content_type_id": "7",
+    "codename": "delete_contenttype"
+},
+{
+    "id": "28",
+    "name": "Can view content type",
+    "content_type_id": "7",
+    "codename": "view_contenttype"
+},
+{
+    "id": "29",
+    "name": "Can add session",
+    "content_type_id": "8",
+    "codename": "add_session"
+},
+{
+    "id": "30",
+    "name": "Can change session",
+    "content_type_id": "8",
+    "codename": "change_session"
+},
+{
+    "id": "31",
+    "name": "Can delete session",
+    "content_type_id": "8",
+    "codename": "delete_session"
+},
+{
+    "id": "32",
+    "name": "Can view session",
+    "content_type_id": "8",
+    "codename": "view_session"
+},
+{
+    "id": "33",
+    "name": "Can add site",
+    "content_type_id": "9",
+    "codename": "add_site"
+},
+{
+    "id": "34",
+    "name": "Can change site",
+    "content_type_id": "9",
+    "codename": "change_site"
+},
+{
+    "id": "35",
+    "name": "Can delete site",
+    "content_type_id": "9",
+    "codename": "delete_site"
+},
+{
+    "id": "36",
+    "name": "Can view site",
+    "content_type_id": "9",
+    "codename": "view_site"
+},
+{
+    "id": "37",
+    "name": "Can add social application",
+    "content_type_id": "10",
+    "codename": "add_socialapp"
+},
+{
+    "id": "38",
+    "name": "Can change social application",
+    "content_type_id": "10",
+    "codename": "change_socialapp"
+},
+{
+    "id": "39",
+    "name": "Can delete social application",
+    "content_type_id": "10",
+    "codename": "delete_socialapp"
+},
+{
+    "id": "40",
+    "name": "Can view social application",
+    "content_type_id": "10",
+    "codename": "view_socialapp"
+},
+{
+    "id": "41",
+    "name": "Can add social account",
+    "content_type_id": "11",
+    "codename": "add_socialaccount"
+},
+{
+    "id": "42",
+    "name": "Can change social account",
+    "content_type_id": "11",
+    "codename": "change_socialaccount"
+},
+{
+    "id": "43",
+    "name": "Can delete social account",
+    "content_type_id": "11",
+    "codename": "delete_socialaccount"
+},
+{
+    "id": "44",
+    "name": "Can view social account",
+    "content_type_id": "11",
+    "codename": "view_socialaccount"
+},
+{
+    "id": "45",
+    "name": "Can add social application token",
+    "content_type_id": "12",
+    "codename": "add_socialtoken"
+},
+{
+    "id": "46",
+    "name": "Can change social application token",
+    "content_type_id": "12",
+    "codename": "change_socialtoken"
+},
+{
+    "id": "47",
+    "name": "Can delete social application token",
+    "content_type_id": "12",
+    "codename": "delete_socialtoken"
+},
+{
+    "id": "48",
+    "name": "Can view social application token",
+    "content_type_id": "12",
+    "codename": "view_socialtoken"
+},
+{
+    "id": "49",
+    "name": "Can add email address",
+    "content_type_id": "13",
+    "codename": "add_emailaddress"
+},
+{
+    "id": "50",
+    "name": "Can change email address",
+    "content_type_id": "13",
+    "codename": "change_emailaddress"
+},
+{
+    "id": "51",
+    "name": "Can delete email address",
+    "content_type_id": "13",
+    "codename": "delete_emailaddress"
+},
+{
+    "id": "52",
+    "name": "Can view email address",
+    "content_type_id": "13",
+    "codename": "view_emailaddress"
+},
+{
+    "id": "53",
+    "name": "Can add email confirmation",
+    "content_type_id": "14",
+    "codename": "add_emailconfirmation"
+},
+{
+    "id": "54",
+    "name": "Can change email confirmation",
+    "content_type_id": "14",
+    "codename": "change_emailconfirmation"
+},
+{
+    "id": "55",
+    "name": "Can delete email confirmation",
+    "content_type_id": "14",
+    "codename": "delete_emailconfirmation"
+},
+{
+    "id": "56",
+    "name": "Can view email confirmation",
+    "content_type_id": "14",
+    "codename": "view_emailconfirmation"
+},
+{
+    "id": "57",
+    "name": "Can add social account",
+    "content_type_id": "15",
+    "codename": "add_socialaccount"
+},
+{
+    "id": "58",
+    "name": "Can change social account",
+    "content_type_id": "15",
+    "codename": "change_socialaccount"
+},
+{
+    "id": "59",
+    "name": "Can delete social account",
+    "content_type_id": "15",
+    "codename": "delete_socialaccount"
+},
+{
+    "id": "60",
+    "name": "Can view social account",
+    "content_type_id": "15",
+    "codename": "view_socialaccount"
+},
+{
+    "id": "61",
+    "name": "Can add social application",
+    "content_type_id": "16",
+    "codename": "add_socialapp"
+},
+{
+    "id": "62",
+    "name": "Can change social application",
+    "content_type_id": "16",
+    "codename": "change_socialapp"
+},
+{
+    "id": "63",
+    "name": "Can delete social application",
+    "content_type_id": "16",
+    "codename": "delete_socialapp"
+},
+{
+    "id": "64",
+    "name": "Can view social application",
+    "content_type_id": "16",
+    "codename": "view_socialapp"
+},
+{
+    "id": "65",
+    "name": "Can add social application token",
+    "content_type_id": "17",
+    "codename": "add_socialtoken"
+},
+{
+    "id": "66",
+    "name": "Can change social application token",
+    "content_type_id": "17",
+    "codename": "change_socialtoken"
+},
+{
+    "id": "67",
+    "name": "Can delete social application token",
+    "content_type_id": "17",
+    "codename": "delete_socialtoken"
+},
+{
+    "id": "68",
+    "name": "Can view social application token",
+    "content_type_id": "17",
+    "codename": "view_socialtoken"
+},
+{
+    "id": "69",
+    "name": "Can add contact",
+    "content_type_id": "18",
+    "codename": "add_contact"
+},
+{
+    "id": "70",
+    "name": "Can change contact",
+    "content_type_id": "18",
+    "codename": "change_contact"
+},
+{
+    "id": "71",
+    "name": "Can delete contact",
+    "content_type_id": "18",
+    "codename": "delete_contact"
+},
+{
+    "id": "72",
+    "name": "Can view contact",
+    "content_type_id": "18",
+    "codename": "view_contact"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_user",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "password": "pbkdf2_sha256$260000$LDCja1569Vx5WA7yRo4Y5V$NOvBYdJEQIEn\/Gu\/DSk\/UCKKLJajkRFATAbZrR3A\/V0=",
+    "last_login": "2021-09-15 23:08:20.816472",
+    "is_superuser": "1",
+    "username": "rasel5002",
+    "first_name": "",
+    "last_name": "",
+    "email": "raselahmed4star@gmail.com",
+    "is_staff": "1",
+    "is_active": "1",
+    "date_joined": "2021-09-08 18:15:53.368139"
+},
+{
+    "id": "2",
+    "password": "pbkdf2_sha256$260000$eideGOVIBoJ9cjbkHSkGXH$jJsGMw5sptlwA1BaS2cWVocBImVAV8Fri\/G1+PxtfJs=",
+    "last_login": "2021-09-10 20:27:28.573612",
+    "is_superuser": "0",
+    "username": "joe",
+    "first_name": "joseph",
+    "last_name": "joe",
+    "email": "joe@gmail.com",
+    "is_staff": "0",
+    "is_active": "1",
+    "date_joined": "2021-09-10 20:27:25.966280"
+},
+{
+    "id": "3",
+    "password": "pbkdf2_sha256$260000$qX5ghS400W5hQPVukxf065$c5xqCm58Ka3ZRUv\/V5\/J30E1QD9MBq+QXRWVV71NxhY=",
+    "last_login": "2021-09-15 22:40:26.519277",
+    "is_superuser": "0",
+    "username": "ashiq",
+    "first_name": "Ashiqul",
+    "last_name": "Islam",
+    "email": "ashiqulislamrasel@gmail.com",
+    "is_staff": "0",
+    "is_active": "1",
+    "date_joined": "2021-09-14 04:37:57.149119"
+},
+{
+    "id": "4",
+    "password": "!XVo8vpQpSz2d1t2APGnXjxBqofr429Mqq0XhmZ6j",
+    "last_login": "2021-09-14 11:55:06.966411",
+    "is_superuser": "0",
+    "username": "ashiqul",
+    "first_name": "Ashiqul",
+    "last_name": "Rasel",
+    "email": "",
+    "is_staff": "0",
+    "is_active": "1",
+    "date_joined": "2021-09-14 11:08:52.468681"
+},
+{
+    "id": "5",
+    "password": "!drykbpWjR0Xv1tKbSlCDz2BU2WxVMvogJszkJGcY",
+    "last_login": "2021-09-14 11:32:20.010731",
+    "is_superuser": "0",
+    "username": "ashiqul0",
+    "first_name": "Ashiqul",
+    "last_name": "Islam Rasel",
+    "email": "",
+    "is_staff": "0",
+    "is_active": "1",
+    "date_joined": "2021-09-14 11:32:19.515056"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_user_groups",
+    "database": "carzone",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "auth_user_user_permissions",
+    "database": "carzone",
+    "data": 
+[
+
+]
+
+}
+,{
+    "type": "table",
+    "name": "cars_car",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "car_title": "2017 Ferrari 488 GTB",
+    "state": "TX",
+    "city": "Austin",
+    "color": "white",
+    "model": "488 GTB",
+    "year": "2017",
+    "condition": "used",
+    "price": "40000",
+    "description": "<p>The&nbsp;<strong>Ferrari 488<\/strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine<\/a>&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Sports_car\" title=\"Sports car\">sports car<\/a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ferrari\" title=\"Ferrari\">Ferrari<\/a>. The car replaced the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ferrari_458\" title=\"Ferrari 458\">458<\/a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ferrari_F40\" title=\"Ferrari F40\">F40<\/a>.<\/p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged<\/a>&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/V8_engine\" title=\"V8 engine\">V8 engine<\/a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine<\/a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\"><em>Top Gear<\/em><\/a>, as well as becoming&nbsp;<em><a href=\"https:\/\/en.wikipedia.org\/wiki\/Motor_Trend\" title=\"Motor Trend\">Motor Trend<\/a><\/em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ferrari_488#cite_note-7\">[7]<\/a>&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson<\/a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ferrari_488#cite_note-8\">[8]<\/a>&nbsp;The 488 was succeeded by the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ferrari_F8_Tributo\" title=\"Ferrari F8 Tributo\">F8 Tributo<\/a>&nbsp;in February 2019.<\/p>",
+    "car_photo": "photos\/2021\/09\/09\/1902536891.jpg",
+    "car_photo_1": "photos\/2021\/09\/09\/1902536917.jpg",
+    "car_photo_2": "photos\/2021\/09\/09\/1902537043.jpg",
+    "car_photo_3": "photos\/2021\/09\/09\/1902537077.jpg",
+    "car_photo_4": "photos\/2021\/09\/09\/1902537082.jpg",
+    "features": "Cruise Control,Audio Interface,Alarm System,Power Steering,Wind Deflector,Bluetooth Handset",
+    "body_style": "Sport",
+    "engine": "3.4L Mid-Engine V6",
+    "transmission": "Automatic",
+    "interior": "Gray",
+    "miles": "10000",
+    "doors": "3",
+    "passengers": "2",
+    "vin_no": "WP0AB2E81EK1788547",
+    "milage": "5",
+    "fuel_type": "Petrol",
+    "no_of_owners": "1",
+    "is_featured": "1",
+    "created_date": "2021-09-09 00:36:02.000000"
+},
+{
+    "id": "2",
+    "car_title": "2017 Ford Edge",
+    "state": "TX",
+    "city": "Dallas",
+    "color": "Black",
+    "model": "Edge",
+    "year": "2017",
+    "condition": "used",
+    "price": "25000",
+    "description": "<p>The&nbsp;<strong>Ford Edge<\/strong>&nbsp;is a range of&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs<\/a>&nbsp;manufactured by the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company<\/a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV<\/a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger<\/a>, the Ford Edge is slotted between the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ford_Escape\" title=\"Ford Escape\">Ford Escape<\/a>&nbsp;and the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer<\/a>&nbsp;within the Ford product line.<\/p>",
+    "car_photo": "photos\/2021\/09\/09\/1901478607.jpg",
+    "car_photo_1": "photos\/2021\/09\/09\/1901478618.jpg",
+    "car_photo_2": "photos\/2021\/09\/09\/1901478646.jpg",
+    "car_photo_3": "photos\/2021\/09\/09\/1901478672.jpg",
+    "car_photo_4": "photos\/2021\/09\/09\/1901478687.jpg",
+    "features": "Cruise Control,Audio Interface,Air Conditioning,Power Steering,Direct Fuel Injection,Auto Start\/Stop,Wind Deflector",
+    "body_style": "SUV",
+    "engine": "3.4L Mid-Engine V7",
+    "transmission": "Automatic",
+    "interior": "Gray",
+    "miles": "15000",
+    "doors": "5",
+    "passengers": "5",
+    "vin_no": "WP0AB2E81EK1788547",
+    "milage": "8",
+    "fuel_type": "Petrol",
+    "no_of_owners": "2",
+    "is_featured": "1",
+    "created_date": "2021-09-09 00:46:19.000000"
+},
+{
+    "id": "3",
+    "car_title": "2017 Ford F-250 Super Duty",
+    "state": "NY",
+    "city": "Ohio",
+    "color": "Black",
+    "model": "F-250",
+    "year": "2017",
+    "condition": "used",
+    "price": "30000",
+    "description": "<p>The&nbsp;<strong>Ford Super Duty<\/strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company<\/a>. Introduced in 1998 for the 1999 model year (the 1998 model year was skipped), the F-Series Super Duty trucks marked the addition of a heavy-duty pickup to the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series<\/a>&nbsp;range with the new versions of the F-250, F-350, and F-450 trucks, while the previous 1987&ndash;1997 F-Super Duty&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Chassis_cab\" title=\"Chassis cab\">chassis cabs<\/a>&nbsp;were replaced by the F-450 chassis cab and F-550 Super Duty.<\/p>",
+    "car_photo": "photos\/2021\/09\/09\/1894300894.jpg",
+    "car_photo_1": "photos\/2021\/09\/09\/1894300905.jpg",
+    "car_photo_2": "photos\/2021\/09\/09\/1894300920.jpg",
+    "car_photo_3": "photos\/2021\/09\/09\/1900155012.jpg",
+    "car_photo_4": "photos\/2021\/09\/09\/1900155133.jpg",
+    "features": "Audio Interface,Airbags,Alarm System,ParkAssist,Power Steering,Reversing Camera",
+    "body_style": "SUV",
+    "engine": "3.4L Mid-Engine V6",
+    "transmission": "Automatic",
+    "interior": "Gray",
+    "miles": "13000",
+    "doors": "3",
+    "passengers": "2",
+    "vin_no": "WP0AB2E81EK1788547",
+    "milage": "10",
+    "fuel_type": "Diesel",
+    "no_of_owners": "1",
+    "is_featured": "1",
+    "created_date": "2021-09-09 00:53:38.000000"
+},
+{
+    "id": "4",
+    "car_title": "2017 Jaguar F-PACE",
+    "state": "TX",
+    "city": "Austin",
+    "color": "Green",
+    "model": "F-PACE",
+    "year": "2017",
+    "condition": "used",
+    "price": "50000",
+    "description": "<p>The&nbsp;<strong>Jaguar F-Pace<\/strong>&nbsp;(X761) is a compact SUV made by&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover<\/a>, a British&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Automaker\" title=\"Automaker\">car manufacturer<\/a>, under their&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque<\/a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/North_American_International_Auto_Show#2015\" title=\"North American International Auto Show\">2015 North American International Auto Show<\/a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/International_Motor_Show_Germany#2015\" title=\"International Motor Show Germany\">International Motor Show Germany<\/a>&nbsp;in Frankfurt in September 2015.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jaguar_F-Pace#cite_note-4\">[4]<\/a>&nbsp;The design of the F-Pace is based on the 2013&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17<\/a>&nbsp;concept car.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]<\/a>&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show<\/a>.<a href=\"https:\/\/en.wikipedia.org\/wiki\/Jaguar_F-Pace#cite_note-6\">[6]<\/a><\/p>",
+    "car_photo": "photos\/2021\/09\/09\/1902932503.jpg",
+    "car_photo_1": "photos\/2021\/09\/09\/1902932514.jpg",
+    "car_photo_2": "photos\/2021\/09\/09\/1902932528.jpg",
+    "car_photo_3": "photos\/2021\/09\/09\/1902932542.jpg",
+    "car_photo_4": "photos\/2021\/09\/09\/1902932514_2xfBk28.jpg",
+    "features": "Audio Interface,Airbags,Seat Heating,Reversing Camera,Auto Start\/Stop,Bluetooth Handset",
+    "body_style": "SUV",
+    "engine": "3.4L Mid-Engine V6",
+    "transmission": "Automatic",
+    "interior": "black",
+    "miles": "12500",
+    "doors": "5",
+    "passengers": "5",
+    "vin_no": "WP0AB2E81EK1788547",
+    "milage": "7",
+    "fuel_type": "Petrol",
+    "no_of_owners": "1",
+    "is_featured": "1",
+    "created_date": "2021-09-09 01:01:11.000000"
+},
+{
+    "id": "5",
+    "car_title": "2018 Toyota 4Runner",
+    "state": "HI",
+    "city": "dhaka",
+    "color": "gray",
+    "model": "2018 Toyota",
+    "year": "2018",
+    "condition": "new",
+    "price": "45000",
+    "description": "<p>The&nbsp;<strong>Toyota 4Runner<\/strong>&nbsp;is a compact, later mid-size&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Sport_utility_vehicle\" title=\"Sport utility vehicle\">sport utility vehicle<\/a>&nbsp;produced by the Japanese manufacturer&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Toyota\" title=\"Toyota\">Toyota<\/a>&nbsp;and sold throughout the world from 1984 to present. In Japan, it is known as the&nbsp;<strong>Toyota Hilux Surf<\/strong>&nbsp;(Japanese: \u30c8\u30e8\u30bf\u30fb\u30cf\u30a4\u30e9\u30c3\u30af\u30b9\u30b5\u30fc\u30d5,&nbsp;<em>Toyota Hairakkusus\u0101fu<\/em>)&nbsp;which was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Compact_SUV\" title=\"Compact SUV\">compact SUV<\/a>&nbsp;and little more than a Toyota pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Tahara_plant\" title=\"Tahara plant\">plant<\/a>&nbsp;in&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Tahara,_Aichi\" title=\"Tahara, Aichi\">Tahara, Aichi<\/a>, or at the&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hino_Motors\" title=\"Hino Motors\">Hino Motors<\/a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Hamura\" title=\"Hamura\">Hamura<\/a>.<\/p>",
+    "car_photo": "photos\/2021\/09\/09\/1893633875.jpg",
+    "car_photo_1": "photos\/2021\/09\/09\/1893633879.jpg",
+    "car_photo_2": "photos\/2021\/09\/09\/1893633884.jpg",
+    "car_photo_3": "photos\/2021\/09\/09\/1896836883.jpg",
+    "car_photo_4": "photos\/2021\/09\/09\/1896836887.jpg",
+    "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System",
+    "body_style": "SUV",
+    "engine": "3.4L Mid-Engine V8",
+    "transmission": "Automatic",
+    "interior": "black",
+    "miles": "20000",
+    "doors": "4",
+    "passengers": "7",
+    "vin_no": "WP0AB2E81EK1788547",
+    "milage": "12",
+    "fuel_type": "Petrol",
+    "no_of_owners": "2",
+    "is_featured": "1",
+    "created_date": "2021-09-09 12:35:34.000000"
+},
+{
+    "id": "6",
+    "car_title": "2018 Toyota Corolla",
+    "state": "CA",
+    "city": "Austin",
+    "color": "Black",
+    "model": "2018 Toyota",
+    "year": "2018",
+    "condition": "used",
+    "price": "50000",
+    "description": "<p>The name &#39;4Runner&#39; was created by a copywriter named Robert Nathan who was working for the advertising agency&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Saatchi_%26_Saatchi\" title=\"Saatchi &amp; Saatchi\">Saatchi &amp; Saatchi<\/a>. The agency held contests to invent new vehicle names before the introduction of new Toyota models. The name 4Runner was created as a play on the term &quot;forerunner,&quot; since the sport utility vehicle was the first of its kind for Toyota with an emphasis on its 4x4 capability and seating for four.[<em><a href=\"https:\/\/en.wikipedia.org\/wiki\/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\">citation needed<\/a><\/em>]<\/p>\r\n\r\n<p>For Southeast Asia the Hilux Surf was replaced in 2005 by the similar&nbsp;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Toyota_Fortuner\" title=\"Toyota Fortuner\">Fortuner<\/a>, which is based on the Hilux platform.<\/p>",
+    "car_photo": "photos\/2021\/09\/09\/1900893299.jpg",
+    "car_photo_1": "photos\/2021\/09\/09\/1900893311.jpg",
+    "car_photo_2": "photos\/2021\/09\/09\/1900893319.jpg",
+    "car_photo_3": "photos\/2021\/09\/09\/1900893329.jpg",
+    "car_photo_4": "photos\/2021\/09\/09\/1900893391.jpg",
+    "features": "Air Conditioning,ParkAssist,Reversing Camera,Direct Fuel Injection,Auto Start\/Stop,Bluetooth Handset",
+    "body_style": "Sport",
+    "engine": "3.4L Mid-Engine V6",
+    "transmission": "Automatic",
+    "interior": "Gray",
+    "miles": "15000",
+    "doors": "4",
+    "passengers": "8",
+    "vin_no": "WP0AB2E81EK1788547",
+    "milage": "10",
+    "fuel_type": "Diesel",
+    "no_of_owners": "1",
+    "is_featured": "1",
+    "created_date": "2021-09-09 12:39:16.000000"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "contacts_contact",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "first_name": "Ashiqul ",
+    "last_name": "islam",
+    "car_id": "5",
+    "customer_need": "I'd like to test drive this",
+    "car_title": "2018 Toyota 4Runner",
+    "city": "Brahmanbaria",
+    "state": "Brahmanbaria",
+    "email": "ashiqulislamrasel@gmail.com",
+    "phone": "01790173857",
+    "message": "nice to meet you",
+    "user_id": "1",
+    "create_date": "2021-09-16 03:19:18.879937"
+},
+{
+    "id": "2",
+    "first_name": "Brandon",
+    "last_name": "Nelson",
+    "car_id": "4",
+    "customer_need": "I'm interested in this",
+    "car_title": "2017 Jaguar F-PACE",
+    "city": "auston",
+    "state": "miami",
+    "email": "korimvai@gmail.com",
+    "phone": "",
+    "message": "dd",
+    "user_id": "1",
+    "create_date": "2021-09-16 04:00:14.256881"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "django_admin_log",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "action_time": "2021-09-08 18:44:54.742200",
+    "object_id": "1",
+    "object_repr": "2017 Ferrari 488 GTB",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "2",
+    "action_time": "2021-09-08 18:52:52.498882",
+    "object_id": "2",
+    "object_repr": "2017 Ford Edge",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "3",
+    "action_time": "2021-09-08 19:00:29.739413",
+    "object_id": "3",
+    "object_repr": "2017 Ford F-250 Super Duty",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "4",
+    "action_time": "2021-09-08 19:16:26.655057",
+    "object_id": "4",
+    "object_repr": "2017 Jaguar F-PACE",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "5",
+    "action_time": "2021-09-09 03:34:37.746046",
+    "object_id": "1",
+    "object_repr": "Ashiqul",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "2",
+    "user_id": "1"
+},
+{
+    "id": "6",
+    "action_time": "2021-09-09 03:35:02.297834",
+    "object_id": "2",
+    "object_repr": "Rasel",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "2",
+    "user_id": "1"
+},
+{
+    "id": "7",
+    "action_time": "2021-09-09 03:35:51.257304",
+    "object_id": "3",
+    "object_repr": "Ahnaf",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "2",
+    "user_id": "1"
+},
+{
+    "id": "8",
+    "action_time": "2021-09-09 03:36:13.999821",
+    "object_id": "4",
+    "object_repr": "Martin",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "2",
+    "user_id": "1"
+},
+{
+    "id": "9",
+    "action_time": "2021-09-09 03:36:38.848245",
+    "object_id": "5",
+    "object_repr": "Stone",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "2",
+    "user_id": "1"
+},
+{
+    "id": "10",
+    "action_time": "2021-09-09 06:39:16.656581",
+    "object_id": "5",
+    "object_repr": "2018 Toyota 4Runner",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "11",
+    "action_time": "2021-09-09 06:41:34.347887",
+    "object_id": "6",
+    "object_repr": "2018 Toyota Corolla",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "12",
+    "action_time": "2021-09-09 06:41:38.150107",
+    "object_id": "5",
+    "object_repr": "2018 Toyota 4Runner",
+    "action_flag": "2",
+    "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]",
+    "content_type_id": "1",
+    "user_id": "1"
+},
+{
+    "id": "13",
+    "action_time": "2021-09-14 10:57:14.269355",
+    "object_id": "1",
+    "object_repr": "Facebook login",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "16",
+    "user_id": "1"
+},
+{
+    "id": "14",
+    "action_time": "2021-09-14 10:58:30.979352",
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": "2",
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]",
+    "content_type_id": "9",
+    "user_id": "1"
+},
+{
+    "id": "15",
+    "action_time": "2021-09-14 11:26:05.608593",
+    "object_id": "2",
+    "object_repr": "Google Login",
+    "action_flag": "1",
+    "change_message": "[{\"added\": {}}]",
+    "content_type_id": "16",
+    "user_id": "1"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "django_content_type",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "13",
+    "app_label": "account",
+    "model": "emailaddress"
+},
+{
+    "id": "14",
+    "app_label": "account",
+    "model": "emailconfirmation"
+},
+{
+    "id": "3",
+    "app_label": "admin",
+    "model": "logentry"
+},
+{
+    "id": "11",
+    "app_label": "allauth",
+    "model": "socialaccount"
+},
+{
+    "id": "10",
+    "app_label": "allauth",
+    "model": "socialapp"
+},
+{
+    "id": "12",
+    "app_label": "allauth",
+    "model": "socialtoken"
+},
+{
+    "id": "5",
+    "app_label": "auth",
+    "model": "group"
+},
+{
+    "id": "4",
+    "app_label": "auth",
+    "model": "permission"
+},
+{
+    "id": "6",
+    "app_label": "auth",
+    "model": "user"
+},
+{
+    "id": "1",
+    "app_label": "cars",
+    "model": "car"
+},
+{
+    "id": "18",
+    "app_label": "contacts",
+    "model": "contact"
+},
+{
+    "id": "7",
+    "app_label": "contenttypes",
+    "model": "contenttype"
+},
+{
+    "id": "2",
+    "app_label": "pages",
+    "model": "team"
+},
+{
+    "id": "8",
+    "app_label": "sessions",
+    "model": "session"
+},
+{
+    "id": "9",
+    "app_label": "sites",
+    "model": "site"
+},
+{
+    "id": "15",
+    "app_label": "socialaccount",
+    "model": "socialaccount"
+},
+{
+    "id": "16",
+    "app_label": "socialaccount",
+    "model": "socialapp"
+},
+{
+    "id": "17",
+    "app_label": "socialaccount",
+    "model": "socialtoken"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "django_migrations",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "app": "contenttypes",
+    "name": "0001_initial",
+    "applied": "2021-09-08 18:13:28.195387"
+},
+{
+    "id": "2",
+    "app": "auth",
+    "name": "0001_initial",
+    "applied": "2021-09-08 18:13:36.587161"
+},
+{
+    "id": "3",
+    "app": "admin",
+    "name": "0001_initial",
+    "applied": "2021-09-08 18:13:38.778350"
+},
+{
+    "id": "4",
+    "app": "admin",
+    "name": "0002_logentry_remove_auto_add",
+    "applied": "2021-09-08 18:13:38.863124"
+},
+{
+    "id": "5",
+    "app": "admin",
+    "name": "0003_logentry_add_action_flag_choices",
+    "applied": "2021-09-08 18:13:38.967845"
+},
+{
+    "id": "6",
+    "app": "contenttypes",
+    "name": "0002_remove_content_type_name",
+    "applied": "2021-09-08 18:13:39.507871"
+},
+{
+    "id": "7",
+    "app": "auth",
+    "name": "0002_alter_permission_name_max_length",
+    "applied": "2021-09-08 18:13:40.217772"
+},
+{
+    "id": "8",
+    "app": "auth",
+    "name": "0003_alter_user_email_max_length",
+    "applied": "2021-09-08 18:13:40.310523"
+},
+{
+    "id": "9",
+    "app": "auth",
+    "name": "0004_alter_user_username_opts",
+    "applied": "2021-09-08 18:13:40.342439"
+},
+{
+    "id": "10",
+    "app": "auth",
+    "name": "0005_alter_user_last_login_null",
+    "applied": "2021-09-08 18:13:40.885575"
+},
+{
+    "id": "11",
+    "app": "auth",
+    "name": "0006_require_contenttypes_0002",
+    "applied": "2021-09-08 18:13:41.029685"
+},
+{
+    "id": "12",
+    "app": "auth",
+    "name": "0007_alter_validators_add_error_messages",
+    "applied": "2021-09-08 18:13:41.091535"
+},
+{
+    "id": "13",
+    "app": "auth",
+    "name": "0008_alter_user_username_max_length",
+    "applied": "2021-09-08 18:13:41.207315"
+},
+{
+    "id": "14",
+    "app": "auth",
+    "name": "0009_alter_user_last_name_max_length",
+    "applied": "2021-09-08 18:13:41.336002"
+},
+{
+    "id": "15",
+    "app": "auth",
+    "name": "0010_alter_group_name_max_length",
+    "applied": "2021-09-08 18:13:41.438883"
+},
+{
+    "id": "16",
+    "app": "auth",
+    "name": "0011_update_proxy_permissions",
+    "applied": "2021-09-08 18:13:41.482835"
+},
+{
+    "id": "17",
+    "app": "auth",
+    "name": "0012_alter_user_first_name_max_length",
+    "applied": "2021-09-08 18:13:41.605539"
+},
+{
+    "id": "18",
+    "app": "cars",
+    "name": "0001_initial",
+    "applied": "2021-09-08 18:13:41.959077"
+},
+{
+    "id": "19",
+    "app": "pages",
+    "name": "0001_initial",
+    "applied": "2021-09-08 18:13:42.216954"
+},
+{
+    "id": "20",
+    "app": "sessions",
+    "name": "0001_initial",
+    "applied": "2021-09-08 18:13:42.922474"
+},
+{
+    "id": "21",
+    "app": "account",
+    "name": "0001_initial",
+    "applied": "2021-09-14 10:36:00.689318"
+},
+{
+    "id": "22",
+    "app": "account",
+    "name": "0002_email_max_length",
+    "applied": "2021-09-14 10:36:00.845705"
+},
+{
+    "id": "23",
+    "app": "account",
+    "name": "0003_auto_20210914_1635",
+    "applied": "2021-09-14 10:36:04.064907"
+},
+{
+    "id": "24",
+    "app": "sites",
+    "name": "0001_initial",
+    "applied": "2021-09-14 10:36:04.583531"
+},
+{
+    "id": "25",
+    "app": "sites",
+    "name": "0002_alter_domain_unique",
+    "applied": "2021-09-14 10:36:05.005431"
+},
+{
+    "id": "26",
+    "app": "socialaccount",
+    "name": "0001_initial",
+    "applied": "2021-09-14 10:40:03.452878"
+},
+{
+    "id": "27",
+    "app": "socialaccount",
+    "name": "0002_token_max_lengths",
+    "applied": "2021-09-14 10:40:03.908048"
+},
+{
+    "id": "28",
+    "app": "socialaccount",
+    "name": "0003_extra_data_default_dict",
+    "applied": "2021-09-14 10:40:03.973065"
+},
+{
+    "id": "29",
+    "app": "contacts",
+    "name": "0001_initial",
+    "applied": "2021-09-15 20:33:53.167679"
+},
+{
+    "id": "30",
+    "app": "socialaccount",
+    "name": "0004_auto_20210916_0232",
+    "applied": "2021-09-15 20:41:02.859310"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "django_session",
+    "database": "carzone",
+    "data": 
+[
+{
+    "session_key": "rur4z5txaec4jsh7z3gbi0oe02pdyzb7",
+    "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sIlRoOHhhNkJyd05rQiJdfQ:1mQ6E5:ZxfGHTQFORmxBzlop8JhJwD7rcJr36C6Ux4EZuyKE0Y",
+    "expire_date": "2021-09-28 11:03:45.099396"
+},
+{
+    "session_key": "ul1bcrq3nc0o7x96zinuwohbld7mrlmz",
+    "session_data": ".eJxVjEEOwiAQRe_C2hCghQ4u3XsGMtNhpGpoUtqV8e7apAvd_vfef6mE21rS1vKSJlZn5dTpdyMcH7nugO9Yb7Me57ouE-ld0Qdt-jpzfl4O9--gYCvfOlCMwmAldGSD66LjMMRIgdmaXjxaEUMDefJMkHsBwYAAJoOxxpN6fwDl8zgT:1mOn7Q:eocYOjMQFAq1RuOZAII-nzvXAMiieJPEMm74nQPA5Rw",
+    "expire_date": "2021-09-24 20:27:28.796952"
+},
+{
+    "session_key": "wzv3xddhergu1m4d6ny59oy40db7fl83",
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rFeYkp4zWF7vggPIluKkQtwdIqWA9s3Me6mU16WmdcicJlYnZdXhd6NcHtI2wPfcbl2X3pZ5Ir0peqdDXzrL87y7fwc1j_qtHVzBOINAOQZwcERX0NqQyQEImwKMgS0DCrIV8aZgJE9oISD5qN4fuHI2_Q:1mQe0q:QkgMEmwPfoDyfGfU5Fddbgddaamc6Ac3XQzHX5OZQXU",
+    "expire_date": "2021-09-29 23:08:20.976160"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "django_site",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "pages_team",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "first_name": "Ashiqul",
+    "last_name": "islam",
+    "designation": "Founder",
+    "photo": "photos\/21\/09\/09\/avatar-1.jpg",
+    "facebook_link": "http:\/\/facebook.com",
+    "twitter_link": "http:\/\/twitter.com",
+    "google_plus_link": "http:\/\/googles.com",
+    "created_date": "2021-09-09 03:34:37.734078"
+},
+{
+    "id": "2",
+    "first_name": "Rasel",
+    "last_name": "Ahmed",
+    "designation": "CEO",
+    "photo": "photos\/21\/09\/09\/avatar-11.jpg",
+    "facebook_link": "http:\/\/facebook.com",
+    "twitter_link": "http:\/\/twitter.com",
+    "google_plus_link": "http:\/\/googles.com",
+    "created_date": "2021-09-09 03:35:02.245891"
+},
+{
+    "id": "3",
+    "first_name": "Ahnaf",
+    "last_name": "Ahmeed",
+    "designation": "Creative Director",
+    "photo": "photos\/21\/09\/09\/avatar-3.jpg",
+    "facebook_link": "http:\/\/facebook.com",
+    "twitter_link": "http:\/\/twitter.com",
+    "google_plus_link": "http:\/\/googles.com",
+    "created_date": "2021-09-09 03:35:51.230323"
+},
+{
+    "id": "4",
+    "first_name": "Martin",
+    "last_name": "smith",
+    "designation": "Co-Founder",
+    "photo": "photos\/21\/09\/09\/avatar-12.jpg",
+    "facebook_link": "http:\/\/facebook.com",
+    "twitter_link": "http:\/\/twitter.com",
+    "google_plus_link": "http:\/\/googles.com",
+    "created_date": "2021-09-09 03:36:13.972868"
+},
+{
+    "id": "5",
+    "first_name": "Stone",
+    "last_name": "Carolyn",
+    "designation": "Support Manager",
+    "photo": "photos\/21\/09\/09\/avatar-9.jpg",
+    "facebook_link": "http:\/\/facebook.com",
+    "twitter_link": "http:\/\/twitter.com",
+    "google_plus_link": "http:\/\/googles.com",
+    "created_date": "2021-09-09 03:36:38.826320"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "socialaccount_socialaccount",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "provider": "facebook",
+    "uid": "2445813848896680",
+    "last_login": "2021-09-14 11:55:06.839473",
+    "date_joined": "2021-09-14 11:08:52.582378",
+    "extra_data": "{\"id\": \"2445813848896680\", \"name\": \"Ashiqul Islam Rasel\", \"first_name\": \"Ashiqul\", \"last_name\": \"Rasel\"}",
+    "user_id": "4"
+},
+{
+    "id": "2",
+    "provider": "google",
+    "uid": "104502893203661851216",
+    "last_login": "2021-09-14 11:32:19.592864",
+    "date_joined": "2021-09-14 11:32:19.592864",
+    "extra_data": "{\"id\": \"104502893203661851216\", \"name\": \"Ashiqul Islam Rasel\", \"given_name\": \"Ashiqul\", \"family_name\": \"Islam Rasel\", \"picture\": \"https:\/\/lh3.googleusercontent.com\/a-\/AOh14Ggu8tW0tYK5KdM6afUAU_3CmWzSsw8EoWRJmmCWzQ=s96-c\", \"locale\": \"en-GB\"}",
+    "user_id": "5"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "socialaccount_socialapp",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "provider": "facebook",
+    "name": "Facebook login",
+    "client_id": "419045626612308",
+    "secret": "2e8a2d248e5f019a1d5f65ab3e9326e7",
+    "key": ""
+},
+{
+    "id": "2",
+    "provider": "google",
+    "name": "Google Login",
+    "client_id": "1009887878847-da845r91v4tppc1lj6evcc5prmbdm50g.apps.googleusercontent.com",
+    "secret": "5VfAnPFok3KVu5m7exwY78Dm",
+    "key": ""
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "socialaccount_socialapp_sites",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "socialapp_id": "1",
+    "site_id": "1"
+},
+{
+    "id": "2",
+    "socialapp_id": "2",
+    "site_id": "1"
+}
+]
+
+}
+,{
+    "type": "table",
+    "name": "socialaccount_socialtoken",
+    "database": "carzone",
+    "data": 
+[
+{
+    "id": "1",
+    "token": "EAAF9Hqm4ClQBAEkUg2LMwW3t0YdXFZAOZAKwuC5mXf97YDKKYVX3yRNBKDIYxZBtXGG7PrSqRbMBKRlO7arq06EnxUBEiL5JiXNR6hJHNOpiqvm0HIqX20qe2bfy5WLEVUQrkzGdEhYelmZAr7CZC3fJgP1ZAxEJD7Vc9AlIDJDfcSrhnHky6VDey9VqE8c3xazsJGMMZCLtQvEQR99XSeFFHCbZAmOkFgsZD",
+    "token_secret": "",
+    "expires_at": null,
+    "account_id": "1",
+    "app_id": "1"
+},
+{
+    "id": "2",
+    "token": "ya29.a0ARrdaM9G4LharDU9WSH8H1HXbd2zTQ_OaV-8o9LHNoiu0xVJSDWqys3O1TmOqQGro0aWPV6uhk_cKp9Bev4OYqeysRxEz2ClIfBpQ_yWXZUArvaEw9tAszclDVQ1I_x0Atem4agbAYWXG_wEWgNuYYEtE75b",
+    "token_secret": "",
+    "expires_at": "2021-09-14 12:32:18.265925",
+    "account_id": "2",
+    "app_id": "2"
+}
+]
+
+}
+]

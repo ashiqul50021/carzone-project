@@ -1,0 +1,92 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$LDCja1569Vx5WA7yRo4Y5V$NOvBYdJEQIEn/Gu/DSk/UCKKLJajkRFATAbZrR3A/V0=",
+    "last_login": "2021-09-15T23:08:20.816Z",
+    "is_superuser": true,
+    "username": "rasel5002",
+    "first_name": "",
+    "last_name": "",
+    "email": "raselahmed4star@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-09-08T18:15:53.368Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$eideGOVIBoJ9cjbkHSkGXH$jJsGMw5sptlwA1BaS2cWVocBImVAV8Fri/G1+PxtfJs=",
+    "last_login": "2021-09-10T20:27:28.573Z",
+    "is_superuser": false,
+    "username": "joe",
+    "first_name": "joseph",
+    "last_name": "joe",
+    "email": "joe@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-10T20:27:25.966Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$qX5ghS400W5hQPVukxf065$c5xqCm58Ka3ZRUv/V5/J30E1QD9MBq+QXRWVV71NxhY=",
+    "last_login": "2021-09-15T22:40:26.519Z",
+    "is_superuser": false,
+    "username": "ashiq",
+    "first_name": "Ashiqul",
+    "last_name": "Islam",
+    "email": "ashiqulislamrasel@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T04:37:57.149Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "!XVo8vpQpSz2d1t2APGnXjxBqofr429Mqq0XhmZ6j",
+    "last_login": "2021-09-14T11:55:06.966Z",
+    "is_superuser": false,
+    "username": "ashiqul",
+    "first_name": "Ashiqul",
+    "last_name": "Rasel",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T11:08:52.468Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "!drykbpWjR0Xv1tKbSlCDz2BU2WxVMvogJszkJGcY",
+    "last_login": "2021-09-14T11:32:20.010Z",
+    "is_superuser": false,
+    "username": "ashiqul0",
+    "first_name": "Ashiqul",
+    "last_name": "Islam Rasel",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-09-14T11:32:19.515Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
