@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-s=iszg_!+bzln3zrjfcd=ro1$7=rml3&54j45(v*pysv%5i31z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['carzone5002.herokuapp.com/', '127.0.0.1']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -100,18 +100,18 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'carzone',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#         'USER': 'root',
-#         'PASSWORD': '',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd76g8ai8shd08f',
+        'HOST': 'ec2-3-95-130-249.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'xsqxuqdeozdixy',
+        'PASSWORD': '6b69b16ea31727bc0a1655be6a89292e7e1715329e8dd3338ff79fbde20620b6',
+    }
+}
 
-DATABASES = {'default': dj_database_url.config(default='mysql://root:''@localhost/carzone')}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:1234@localhost/carzone')}
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
